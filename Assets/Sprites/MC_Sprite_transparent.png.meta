@@ -1,0 +1,297 @@
+fileFormatVersion: 2
+guid: 462482d0b8c9b41a8ac7e740526d1cba
+timeCreated: 1431958705
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MC_Sprite_transparent_0
+    21300002: MC_Sprite_transparent_1
+    21300004: MC_Sprite_transparent_2
+    21300006: MC_Sprite_transparent_3
+    21300008: MC_Sprite_transparent_4
+    21300010: MC_Sprite_transparent_5
+    21300012: MC_Sprite_transparent_6
+    21300014: MC_Sprite_transparent_7
+    21300016: MC_Sprite_transparent_8
+    21300018: MC_Sprite_transparent_9
+    21300020: MC_Sprite_transparent_10
+    21300022: MC_Sprite_transparent_11
+    21300024: MC_Sprite_transparent_12
+    21300026: MC_Sprite_transparent_13
+    21300028: MC_Sprite_transparent_14
+    21300030: MC_Sprite_transparent_15
+    21300032: MC_Sprite_transparent_16
+    21300034: MC_Sprite_transparent_17
+    21300036: MC_Sprite_transparent_18
+    21300038: MC_Sprite_transparent_19
+    21300040: MC_Sprite_transparent_20
+    21300042: MC_Sprite_transparent_21
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: MC_Sprite_transparent_0
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 2141
+        width: 152
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_transparent_1
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 2137
+        width: 149
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_transparent_2
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 2137
+        width: 154
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_transparent_3
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 2137
+        width: 149
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_transparent_4
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1741
+        width: 149
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_transparent_5
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1741
+        width: 154
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_transparent_6
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1741
+        width: 149
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_transparent_7
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1744
+        width: 153
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_transparent_8
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1294
+        width: 174
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_transparent_9
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1294
+        width: 149
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_transparent_10
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 1302
+        width: 181
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_transparent_11
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1302
+        width: 173
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_transparent_12
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 903
+        width: 145
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_transparent_13
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 903
+        width: 145
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_transparent_14
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 903
+        width: 145
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_transparent_15
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 903
+        width: 146
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_transparent_16
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 532
+        width: 165
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_transparent_17
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 532
+        width: 165
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_transparent_18
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 532
+        width: 165
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_transparent_19
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 532
+        width: 165
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_transparent_20
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 146
+        width: 165
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_transparent_21
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 146
+        width: 164
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
