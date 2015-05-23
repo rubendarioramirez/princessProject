@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 public class gameManager : MonoBehaviour {
 	
-	//Creates a reference of itself
+	//Creates a reference of itself or a Singleton nice try.
 	public static gameManager myGameManager;
 
 	//Get access to Dialog references
@@ -13,22 +13,23 @@ public class gameManager : MonoBehaviour {
 	private Text dialogText;
 	// Create a list of dialog lines
 	public List<string> dialogList;
+	public List<string> dialogTriggerList = new List<string>();
 	
 	//Other levelthings
 	public float levelStartDelay =2f;
 	private Text levelText;
 	private GameObject levelImage;
-
-	//Coins Count
-	public int coinsAmount = 0;
 	
-	//Handles the current progress of the game
-	public int gameProgress = 0;
 
+	//Handles the current progress of the game
+	public bool gameHasStarted = false;
+	public int gameProgress = 0;
+	public int coinsAmount = 0;
+	public List<string> coinsList = new List<string>();
 
 	//Level 2 variables (House Scene)
 	public bool chestHasBeenOpened = false;
-
+	
 	void Awake(){
 	//	callTransition ("Once upon a time");
 	//	Invoke ("HideLevelImage", levelStartDelay);
@@ -40,6 +41,8 @@ public class gameManager : MonoBehaviour {
 		} else if (myGameManager != this) {
 			Destroy(gameObject);
 		}
+
+
 	}
 
 	void OnLevelWasLoaded(){
@@ -75,8 +78,15 @@ public class gameManager : MonoBehaviour {
 		dialogList.Add ("Im wondering who moved that Bookshelf");				//4
 
 
+
+		//Game has started
+		gameHasStarted = true;
+
 		//Avoid destroying the gameManager when switching scenes.
 		Object.DontDestroyOnLoad(this);
+
+
+	
 	}
 
 	void Update(){
