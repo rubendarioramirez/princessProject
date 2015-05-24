@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: ab5f923724e964ecf8c9e16eef432234
+timeCreated: 1432447851
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Civilian_woman_0
+    21300002: Civilian_woman_1
+    21300004: Civilian_woman_2
+    21300006: Civilian_woman_3
+    21300008: Civilian_woman_4
+    21300010: Civilian_woman_5
+    21300012: Civilian_woman_6
+    21300014: Civilian_woman_7
+    21300016: Civilian_woman_8
+    21300018: Civilian_woman_9
+    21300020: Civilian_woman_10
+    21300022: Civilian_woman_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Civilian_woman_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 202
+        width: 25
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Civilian_woman_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 203
+        width: 25
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Civilian_woman_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 202
+        width: 25
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Civilian_woman_3
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 138
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Civilian_woman_4
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 139
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Civilian_woman_5
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 138
+        width: 25
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Civilian_woman_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 73
+        width: 25
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Civilian_woman_7
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 74
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Civilian_woman_8
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 73
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Civilian_woman_9
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 8
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Civilian_woman_10
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 10
+        width: 25
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Civilian_woman_11
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 8
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

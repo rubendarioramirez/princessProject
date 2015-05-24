@@ -76,6 +76,8 @@ public class gameManager : MonoBehaviour {
 		dialogList.Add ("Maybe he is in the chest again");						//2
 		dialogList.Add ("Come on Pinoy, stop hiding");							//3
 		dialogList.Add ("Im wondering who moved that Bookshelf");				//4
+		dialogList.Add ("I can't fish without a bait");							//5
+
 
 
 

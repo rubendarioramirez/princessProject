@@ -55,10 +55,12 @@
      <Compile Include="Assets\Scripts\UIDialogScript.cs" />
      <Compile Include="Assets\Scripts\dialogTrigger.cs" />
      <Compile Include="Assets\Scripts\doorScript.cs" />
+     <Compile Include="Assets\Scripts\fisherman_trigger.cs" />
      <Compile Include="Assets\Scripts\gameManager.cs" />
      <Compile Include="Assets\Scripts\houseTrigger.cs" />
      <Compile Include="Assets\Scripts\npc_movement.cs" />
      <Compile Include="Assets\Scripts\triggerScene.cs" />
+     <Compile Include="Assets\npc_dialog_controller.cs" />
      <None Include="Assets\Resources\GameMaps\3DPlataformScenePlataforms1.xml" />
      <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\brick.xml" />
      <None Include="Assets\Resources\OtherMapsExamples\orthogonal-test1_tileset.txt" />

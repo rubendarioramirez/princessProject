@@ -5,6 +5,7 @@ public class UIDialogScript : MonoBehaviour {
 	//Creates a reference of itself
 	public static UIDialogScript myDialogScript;
 
+
 	
 	void Awake(){
 		if (myDialogScript == null) {
