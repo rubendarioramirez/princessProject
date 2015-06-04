@@ -20,7 +20,6 @@ public class doorScript : MonoBehaviour {
 		if (other.tag == "Player") {
 			if(Scenename == "bedroom_scene"){
 				Application.LoadLevel ("main"); 
-				//Debug.Log("Enter trigger");
 			}
 			else if (Scenename == "Main"){
 				Application.LoadLevel ("bedroom_scene"); 

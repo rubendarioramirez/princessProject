@@ -1,0 +1,319 @@
+fileFormatVersion: 2
+guid: 24bd4213825dc499c94c20b65a03aed0
+timeCreated: 1432628754
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MC_Sprite_fin_0
+    21300002: MC_Sprite_fin_1
+    21300004: MC_Sprite_fin_2
+    21300006: MC_Sprite_fin_3
+    21300008: MC_Sprite_fin_4
+    21300010: MC_Sprite_fin_5
+    21300012: MC_Sprite_fin_6
+    21300014: MC_Sprite_fin_7
+    21300016: MC_Sprite_fin_8
+    21300018: MC_Sprite_fin_9
+    21300020: MC_Sprite_fin_10
+    21300022: MC_Sprite_fin_11
+    21300024: MC_Sprite_fin_12
+    21300026: MC_Sprite_fin_13
+    21300028: MC_Sprite_fin_14
+    21300030: MC_Sprite_fin_15
+    21300032: MC_Sprite_fin_16
+    21300034: MC_Sprite_fin_17
+    21300036: MC_Sprite_fin_18
+    21300038: MC_Sprite_fin_19
+    21300040: MC_Sprite_fin_20
+    21300042: MC_Sprite_fin_21
+    21300044: MC_Sprite_fin_22
+    21300046: MC_Sprite_fin_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: MC_Sprite_fin_0
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 2141
+        width: 154
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_fin_1
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 2136
+        width: 149
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_fin_2
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 2136
+        width: 152
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_fin_3
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 2136
+        width: 149
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_fin_4
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1739
+        width: 149
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_fin_5
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1739
+        width: 152
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_fin_6
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1739
+        width: 149
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_fin_7
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1743
+        width: 154
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_fin_8
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1293
+        width: 172
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_fin_9
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1293
+        width: 149
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_fin_10
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1301
+        width: 180
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_fin_11
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1301
+        width: 172
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_fin_12
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 902
+        width: 145
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_fin_13
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 902
+        width: 145
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_fin_14
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 902
+        width: 145
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_fin_15
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 902
+        width: 144
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_fin_16
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 530
+        width: 164
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_fin_17
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 530
+        width: 162
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_fin_18
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 525
+        width: 165
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_fin_19
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 525
+        width: 161
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_fin_20
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 133
+        width: 165
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_fin_21
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 138
+        width: 161
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_fin_22
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 126
+        width: 161
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MC_Sprite_fin_23
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 122
+        width: 165
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

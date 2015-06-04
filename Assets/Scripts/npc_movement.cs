@@ -2,6 +2,9 @@
 using System.Collections;
 
 public class npc_movement : MonoBehaviour {
+	//Creates a reference of itself
+	public static npc_movement myNPC;
+
 
 	public float speed;
 	public float random;
@@ -9,6 +12,17 @@ public class npc_movement : MonoBehaviour {
 	private bool pause = false;
 	private Animator anim;
 	public int waitTime;
+	public bool showingDialog;
+
+	//Subscribe and unsubscribe object to the eventManager
+	void OnEnable(){
+		eventManager.onDialogShowing += showDialogs;
+		eventManager.notDialogShowing += NotshowingDialogs;
+	}
+	void OnDisable(){
+		eventManager.onDialogShowing -= showDialogs;
+		eventManager.notDialogShowing -= NotshowingDialogs;
+	}
 
 	// Use this for initialization
 	void Start () {
@@ -25,45 +39,17 @@ public class npc_movement : MonoBehaviour {
 	{
 		while (pause == false)
 		{
-		
 			int randomDirection = Random.Range(0,5);
 			walkDirection = randomDirection;
 			yield return new WaitForSeconds(waitTime);
-
-			/*
-			walkDirection = 0;
-				yield return new WaitForSeconds(waitTime);
-
-			walkDirection = 1;
-				yield return new WaitForSeconds(waitTime);
-
-			walkDirection = 0;
-				yield return new WaitForSeconds(waitTime);
-
-			walkDirection = 2;
-				yield return new WaitForSeconds(waitTime);
-
-			walkDirection = 0;
-			yield return new WaitForSeconds(waitTime);
-				
-			walkDirection = 3;
-			yield return new WaitForSeconds(waitTime);
-
-			walkDirection = 0;
-			yield return new WaitForSeconds(waitTime);
-
-			walkDirection = 4;
-			yield return new WaitForSeconds(waitTime);
-			*/
-
 		}
 	}
 
 	// Update is called once per frame
-	void FixedUpdate () {
-
-		catchDirection ();
-
+	void Update () {
+		if (!showingDialog) {
+			catchDirection ();
+		}
 	}
 
 	void catchDirection(){
@@ -112,22 +98,10 @@ public class npc_movement : MonoBehaviour {
 		anim.SetTrigger("idle");
 	}
 
-	/* Deprecated way of chicken walking
-	void walking(){
-		if (origX - transform.position.x > distance) {
-			switchDirection = true;
-			anim.SetTrigger ("walk_left");
-		} else if (origX - transform.position.x < -distance) {
-			switchDirection = false;
-			anim.SetTrigger ("walk_right");
-		}
-		if (switchDirection) {
-			transform.Translate (speed * Time.deltaTime, 0, 0);
-		} else {
-			transform.Translate (-speed * Time.deltaTime, 0, 0);
-		}
-
+	void showDialogs(){
+		showingDialog = true;
 	}
-*/
-
+	void NotshowingDialogs(){
+		showingDialog = false;
+	}
 }

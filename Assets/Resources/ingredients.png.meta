@@ -1,0 +1,880 @@
+fileFormatVersion: 2
+guid: a31688d2e442b4a99b12e1ec22e14a19
+timeCreated: 1433165020
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ingredients_0
+    21300002: ingredients_1
+    21300004: ingredients_2
+    21300006: ingredients_3
+    21300008: ingredients_4
+    21300010: ingredients_5
+    21300012: ingredients_6
+    21300014: ingredients_7
+    21300016: ingredients_8
+    21300018: ingredients_9
+    21300020: ingredients_10
+    21300022: ingredients_11
+    21300024: ingredients_12
+    21300026: ingredients_13
+    21300028: ingredients_14
+    21300030: ingredients_15
+    21300032: ingredients_16
+    21300034: ingredients_17
+    21300036: ingredients_18
+    21300038: ingredients_19
+    21300040: ingredients_20
+    21300042: ingredients_21
+    21300044: ingredients_22
+    21300046: ingredients_23
+    21300048: ingredients_24
+    21300050: ingredients_25
+    21300052: ingredients_26
+    21300054: ingredients_27
+    21300056: ingredients_28
+    21300058: ingredients_29
+    21300060: ingredients_30
+    21300062: ingredients_31
+    21300064: ingredients_32
+    21300066: ingredients_33
+    21300068: ingredients_34
+    21300070: ingredients_35
+    21300072: ingredients_36
+    21300074: ingredients_37
+    21300076: ingredients_38
+    21300078: ingredients_39
+    21300080: ingredients_40
+    21300082: ingredients_41
+    21300084: ingredients_42
+    21300086: ingredients_43
+    21300088: ingredients_44
+    21300090: ingredients_45
+    21300092: ingredients_46
+    21300094: ingredients_47
+    21300096: ingredients_48
+    21300098: ingredients_49
+    21300100: ingredients_50
+    21300102: ingredients_51
+    21300104: ingredients_52
+    21300106: ingredients_53
+    21300108: ingredients_54
+    21300110: ingredients_55
+    21300112: ingredients_56
+    21300114: ingredients_57
+    21300116: ingredients_58
+    21300118: ingredients_59
+    21300120: ingredients_60
+    21300122: ingredients_61
+    21300124: ingredients_62
+    21300126: ingredients_63
+    21300128: ingredients_64
+    21300130: ingredients_65
+    21300132: ingredients_66
+    21300134: ingredients_67
+    21300136: ingredients_68
+    21300138: ingredients_69
+    21300140: ingredients_70
+    21300142: ingredients_71
+    21300144: ingredients_72
+    21300146: ingredients_73
+    21300148: ingredients_74
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ingredients_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 2115
+        width: 73
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_1
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 2102
+        width: 111
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_2
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 2100
+        width: 86
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_3
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1985
+        width: 105
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_4
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1972
+        width: 116
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_5
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1978
+        width: 76
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_6
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1859
+        width: 109
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_7
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1858
+        width: 80
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_8
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1888
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_9
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1886
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_10
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1848
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_11
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1848
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_12
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1726
+        width: 112
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_13
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1756
+        width: 93
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_14
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1702
+        width: 97
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_15
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1715
+        width: 93
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_16
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1597
+        width: 108
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_17
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1592
+        width: 88
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_18
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1609
+        width: 71
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_19
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 1591
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_20
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1440
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_21
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1442
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_22
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 1468
+        width: 116
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_23
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1328
+        width: 102
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_24
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1326
+        width: 73
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_25
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1312
+        width: 97
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_26
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1203
+        width: 102
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_27
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1191
+        width: 78
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_28
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1185
+        width: 100
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_29
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1078
+        width: 83
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_30
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1062
+        width: 82
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_31
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1056
+        width: 93
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_32
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 930
+        width: 111
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_33
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 944
+        width: 66
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_34
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 941
+        width: 73
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_35
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 810
+        width: 102
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_36
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 818
+        width: 93
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_37
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 811
+        width: 86
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_38
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 661
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_39
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 690
+        width: 110
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_40
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 713
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_41
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 713
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_42
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 657
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_43
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 657
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_44
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 572
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_45
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 616
+        width: 53
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_46
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 572
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_47
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 589
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_48
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 610
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_49
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 589
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_50
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 530
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_51
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 530
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_52
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 554
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_53
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 545
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_54
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 567
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_55
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 545
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_56
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 525
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_57
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 442
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_58
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 485
+        width: 55
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_59
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 442
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_60
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 401
+        width: 66
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_61
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 400
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_62
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 400
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_63
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 312
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_64
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 355
+        width: 53
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_65
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 312
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_66
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 284
+        width: 86
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_67
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 282
+        width: 80
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_68
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 270
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_69
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 270
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_70
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 148
+        width: 119
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_71
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 160
+        width: 113
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_72
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 144
+        width: 98
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_73
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 18
+        width: 85
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients_74
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 40
+        width: 93
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

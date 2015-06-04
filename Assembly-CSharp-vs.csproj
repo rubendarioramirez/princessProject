@@ -46,21 +46,30 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\DragHandler.cs" />
      <Compile Include="Assets\Scripts\BedRoomScene\bookShelfTrigger.cs" />
      <Compile Include="Assets\Scripts\BedRoomScene\chest_sprite_changed.cs" />
      <Compile Include="Assets\Scripts\CoinController.cs" />
-     <Compile Include="Assets\Scripts\DefaultTrigger.cs" />
+     <Compile Include="Assets\Scripts\Dialogs\DefaultTrigger.cs" />
+     <Compile Include="Assets\Scripts\Dialogs\conversationFarmer.cs" />
+     <Compile Include="Assets\Scripts\Dialogs\conversationTrigger.cs" />
+     <Compile Include="Assets\Scripts\Dialogs\dialogTrigger.cs" />
+     <Compile Include="Assets\Scripts\Dialogs\fisherman_trigger.cs" />
+     <Compile Include="Assets\Scripts\Dialogs\foundNoteTrigger.cs" />
+     <Compile Include="Assets\Scripts\Dialogs\houseTrigger.cs" />
+     <Compile Include="Assets\Scripts\Dialogs\mc_dialog_controller.cs" />
+     <Compile Include="Assets\Scripts\Dialogs\npc_dialog_controller.cs" />
      <Compile Include="Assets\Scripts\Hero.cs" />
      <Compile Include="Assets\Scripts\SmoothCamera2D.cs" />
      <Compile Include="Assets\Scripts\UIDialogScript.cs" />
-     <Compile Include="Assets\Scripts\dialogTrigger.cs" />
+     <Compile Include="Assets\Scripts\animal_movement.cs" />
      <Compile Include="Assets\Scripts\doorScript.cs" />
-     <Compile Include="Assets\Scripts\fisherman_trigger.cs" />
      <Compile Include="Assets\Scripts\gameManager.cs" />
-     <Compile Include="Assets\Scripts\houseTrigger.cs" />
      <Compile Include="Assets\Scripts\npc_movement.cs" />
      <Compile Include="Assets\Scripts\triggerScene.cs" />
-     <Compile Include="Assets\npc_dialog_controller.cs" />
+     <Compile Include="Assets\checkpoint.cs" />
+     <Compile Include="Assets\eventManager.cs" />
+     <Compile Include="Assets\xmlTest.cs" />
      <None Include="Assets\Resources\GameMaps\3DPlataformScenePlataforms1.xml" />
      <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\brick.xml" />
      <None Include="Assets\Resources\OtherMapsExamples\orthogonal-test1_tileset.txt" />
@@ -100,6 +109,7 @@
      <None Include="Assets\Resources\OtherMapsExamples\Isometric\DifferentIsoTest01.xml" />
      <None Include="Assets\Resources\GameMaps\FoldersTest\Level1\StaggeredDungeon.xml" />
      <None Include="Assets\Resources\OtherMapsExamples\orthogonal-test4.xml" />
+     <None Include="Assets\Resources\note.xml" />
      <None Include="Assets\Resources\GameMaps\FoldersTest\IsoDungeon2.xml" />
      <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\pandem1.xml" />
      <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\lapis.xml" />
@@ -109,6 +119,7 @@
      <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\lair.xml" />
      <None Include="Assets\Resources\OtherMapsExamples\Isometric\iso-test2.xml" />
      <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\brick4.xml" />
+     <None Include="Assets\note.xml" />
      <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\gehena.xml" />
      <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\catacomb.xml" />
      <None Include="Assets\Resources\OtherMapsExamples\small_test_multipleLayers.xml" />

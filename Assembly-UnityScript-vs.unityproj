@@ -86,6 +86,7 @@
      <None Include="Assets\Resources\OtherMapsExamples\Isometric\DifferentIsoTest01.xml" />
      <None Include="Assets\Resources\GameMaps\FoldersTest\Level1\StaggeredDungeon.xml" />
      <None Include="Assets\Resources\OtherMapsExamples\orthogonal-test4.xml" />
+     <None Include="Assets\Resources\note.xml" />
      <None Include="Assets\Resources\GameMaps\FoldersTest\IsoDungeon2.xml" />
      <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\pandem1.xml" />
      <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\lapis.xml" />
@@ -95,6 +96,7 @@
      <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\lair.xml" />
      <None Include="Assets\Resources\OtherMapsExamples\Isometric\iso-test2.xml" />
      <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\brick4.xml" />
+     <None Include="Assets\note.xml" />
      <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\gehena.xml" />
      <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\catacomb.xml" />
      <None Include="Assets\Resources\OtherMapsExamples\small_test_multipleLayers.xml" />
