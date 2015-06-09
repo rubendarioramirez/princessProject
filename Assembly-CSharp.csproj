@@ -63,12 +63,13 @@
      <Compile Include="Assets\Scripts\SmoothCamera2D.cs" />
      <Compile Include="Assets\Scripts\UIDialogScript.cs" />
      <Compile Include="Assets\Scripts\animal_movement.cs" />
+     <Compile Include="Assets\Scripts\dialogManager.cs" />
      <Compile Include="Assets\Scripts\doorScript.cs" />
+     <Compile Include="Assets\Scripts\eventManager.cs" />
      <Compile Include="Assets\Scripts\gameManager.cs" />
      <Compile Include="Assets\Scripts\npc_movement.cs" />
      <Compile Include="Assets\Scripts\triggerScene.cs" />
      <Compile Include="Assets\checkpoint.cs" />
-     <Compile Include="Assets\eventManager.cs" />
      <Compile Include="Assets\xmlTest.cs" />
      <None Include="Assets\Resources\GameMaps\3DPlataformScenePlataforms1.xml" />
      <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\brick.xml" />

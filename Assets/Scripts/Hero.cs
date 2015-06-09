@@ -18,6 +18,17 @@ public class Hero : MonoBehaviour {
 		}
 	}
 
+	//Subscribe and unsubscribe object to the eventManager
+	void OnEnable(){
+		eventManager.onDialogShowing += showDialogs;
+		eventManager.notDialogShowing += NotshowingDialogs;
+	}
+	void OnDisable(){
+		eventManager.onDialogShowing -= showDialogs;
+		eventManager.notDialogShowing -= NotshowingDialogs;
+	}
+
+
 	// Use this for initialization
 	void Start () {
 		//Avoid destroying the player when switching scenes
@@ -28,6 +39,12 @@ public class Hero : MonoBehaviour {
 		if(!showingDialog){
 			movement ();
 		}
+
+		if(showingDialog){
+			animator.SetTrigger("idle");
+		}
+
+
 	}
 
 
@@ -55,8 +72,12 @@ public class Hero : MonoBehaviour {
 		}
 	} 
 
-	void showDialogs(bool isShowing){
-		showingDialog = isShowing;
+	void showDialogs(){
+		showingDialog = true;
+	}
+
+	void NotshowingDialogs(){
+		showingDialog = false;
 	}
 
 

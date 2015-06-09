@@ -11,7 +11,7 @@ public class npc_movement : MonoBehaviour {
 	private int walkDirection;
 	private bool pause = false;
 	private Animator anim;
-	public int waitTime;
+	[Range(0, 5)] public int waitTime;
 	public bool showingDialog;
 
 	//Subscribe and unsubscribe object to the eventManager

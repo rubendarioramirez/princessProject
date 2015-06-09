@@ -1,20 +1,23 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class DefaultTrigger : MonoBehaviour {
 	
-	public int dialogCount;
-//	public int NPCToShow;
+	//Handles where starts and end the conversation.
+	public int dialogCountMin;
+ 	public int dialogCountMax;
 
-	//Get an instance of MC to show on UIDialogs	
-	public gameManager.MCToshow showMConDialog;
-	public gameManager.NPCToshow showNPConDialog;
+	//If it's attached to NPC should not destroy this object for instance. Otherwise it's one time dialog.
+	public bool attachedToNPC;
 
-	public bool IwasRemoved = false;
+	//Handles which Avatars to show.
+	public bool showMC;
+	
+
 
 	void Start (){
 		//If the game didnt start, then add all coins to the game. If it did find the coin in the List,
-		// if it's not there means it was already collected so destroy it
 		if (gameManager.myGameManager.gameHasStarted == false) {
 			GetmeOntheTriggerList ();
 		} else if (gameManager.myGameManager.gameHasStarted == true) {
@@ -22,53 +25,55 @@ public class DefaultTrigger : MonoBehaviour {
 				Destroy(gameObject);
 			}
 		}
-		}
+	}
+	
 	void OnTriggerEnter2D(Collider2D other){
 		if (other.tag == "Player") {
-			//Ask Game manager to invoke ShowDialogs function and pass the specific dialog to show
-			//MyGameManager.SendMessage("showDialogs", dialogCount, SendMessageOptions.DontRequireReceiver);
-			gameManager.myGameManager.SendMessage("showDialogs", dialogCount, SendMessageOptions.DontRequireReceiver);
-
-			//Handles the MCto show drop down menu. Just 2 options always.
-			if(showMConDialog == gameManager.MCToshow.Transparent){
-				mc_dialog_controller.my_mc_dialog_controller.SendMessage("displayMCAvatar", 1, SendMessageOptions.DontRequireReceiver);
+			stablishConversationIndex();
+			if(attachedToNPC){
+				dialogManager.myDialogManager.SendMessage("inConversationRadio", SendMessageOptions.DontRequireReceiver);
+				dialogManager.myDialogManager.SendMessage("detectConversationType", SendMessageOptions.DontRequireReceiver);
 			}
-			else if(showMConDialog == gameManager.MCToshow.Matilda){
-				mc_dialog_controller.my_mc_dialog_controller.SendMessage("displayMCAvatar", 0, SendMessageOptions.DontRequireReceiver);
+			if(!attachedToNPC){
+				//Ask Game manager to invoke ShowDialogs function and pass the specific dialog to show;
+				dialogManager.myDialogManager.SendMessage("showDialogs", SendMessageOptions.DontRequireReceiver);
+				removeMeFromTheTriggerList();
+				//Kill this object to make sure same dialog is not trigger twice
+				Destroy(gameObject);
 			}
-
-			//Handles the NPC to show dropdown menu
-			switch(showNPConDialog){
-			case gameManager.NPCToshow.Transparent:
-				npc_dialog_controller.my_npc_dialog_controller.SendMessage("displayNPCAvatar", 0, SendMessageOptions.DontRequireReceiver);
-				break;
-			case gameManager.NPCToshow.Fisherman:
-				npc_dialog_controller.my_npc_dialog_controller.SendMessage("displayNPCAvatar", 1, SendMessageOptions.DontRequireReceiver);
-				break;
+			//Show Matilda or not
+			if(showMC){
+				dialogManager.myDialogManager.SendMessage("showMatilda", SendMessageOptions.DontRequireReceiver);
 			}
 
-			removeMeFromTheTriggerList();
-			//Kill this object to make sure same dialog is not trigger twice
-			Destroy(gameObject);
+		}
+	}
+
+	void OnTriggerExit2D(Collider2D other){
+		if (other.tag == "Player") {
+			//isOnTrigger = false;
 		}
 	}
 	
 	void GetmeOntheTriggerList(){
 		//Insert the object into the CointList
 		string objectName = gameObject.name.ToString ();
-		gameManager.myGameManager.dialogTriggerList.Add (objectName);
+		dialogManager.myDialogManager.dialogTriggerList.Add (objectName);
 	}
 	
 	int findMeOnTheTriggerList(){
 		//Find the object into the CointList as return the Index as INT
 		string objectName = gameObject.name.ToString ();
-		int theIndex = gameManager.myGameManager.dialogTriggerList.IndexOf(objectName);
+		int theIndex = dialogManager.myDialogManager.dialogTriggerList.IndexOf(objectName);
 		return theIndex;
 	}
 	
 	void removeMeFromTheTriggerList(){
 		//Remove the object from the List
-		gameManager.myGameManager.dialogTriggerList.RemoveAt (findMeOnTheTriggerList());
+		dialogManager.myDialogManager.dialogTriggerList.RemoveAt (findMeOnTheTriggerList());
 	}
-
+	void stablishConversationIndex(){
+		dialogManager.myDialogManager.SendMessage ("stablishMin", dialogCountMin, SendMessageOptions.DontRequireReceiver);
+		dialogManager.myDialogManager.SendMessage ("stablishMax", dialogCountMax, SendMessageOptions.DontRequireReceiver);
+	}
 }

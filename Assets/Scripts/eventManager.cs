@@ -10,9 +10,6 @@ public class eventManager : MonoBehaviour {
 
 
 	void Awake(){
-		//	callTransition ("Once upon a time");
-		//	Invoke ("HideLevelImage", levelStartDelay);
-		
 		//Check if there is a gameController, if not create it. If there is but is not this one, destroy it.
 		if (mainEventManager == null) {
 			DontDestroyOnLoad (gameObject);
@@ -25,26 +22,16 @@ public class eventManager : MonoBehaviour {
 	}
 
 	void isShowingDialogs(){
-		if(onDialogShowing != null)
-			onDialogShowing();
+		if (onDialogShowing != null) {
+			onDialogShowing ();
+		}
 	}
 
 	void isNotShowingDialogs(){
 		if(onDialogShowing != null)
 				notDialogShowing();
 	}
-
+	
 }
-//	void OnGUI()
-//	{
-//		if (GUI.Button (new Rect (Screen.width / 2 - 50, 5, 100, 30), "Click")) {
-//			if(onDialogShowing != null)
-//				onDialogShowing();
-//		}
-//		if (GUI.Button (new Rect (Screen.width / 2 - 250, 5, 100, 30), "Not Showing Click")) {
-//			if(onDialogShowing != null)
-//				notDialogShowing();
-//		}
-//}
 
 
